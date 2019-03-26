@@ -2,14 +2,70 @@
 <html>
 <head>
 	<title>About me</title>
+
+	<style type="text/css">
+	body{	
+
+	background: linear-gradient(349deg, #0027ff, #0e1956);
+	background-size: 400% 400%;
+	-webkit-animation: AnimationName 30s ease infinite;
+	-moz-animation: AnimationName 30s ease infinite;
+	animation: AnimationName 30s ease infinite;
+
+	@-webkit-keyframes AnimationName {
+	    0%{background-position:0% 84%}
+	    50%{background-position:100% 17%}
+	    100%{background-position:0% 84%}
+	}
+	@-moz-keyframes AnimationName {
+	    0%{background-position:0% 84%}
+	    50%{background-position:100% 17%}
+	    100%{background-position:0% 84%}
+	}
+	@keyframes AnimationName{
+	    0%{background-position:0% 84%}
+	    50%{background-position:100% 17%}
+	    100%{background-position:0% 84%}
+	}	
+	}
+
+	#h1{
+    font-family: 'Open Sans', Arial, Helvetica Neue, sans-serif;
+    width: 100%;
+    
+    text-transform: uppercase;
+    line-height: 0.8;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: white;
+	}
+
+	#floating-button {
+    width: 55px;
+    height: 55px;
+    border-radius: 60%;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px #666;
+    z-index: 1;
+	}	
+
+	.img1{
+		width: 30px;
+		height: 30px;
+	}
+	</style>	
+
 </head>
+<body >
+
 <body>
-<h1 align="center"> Hello World, Arfan here :) :) </h1>
-<p align="center" > This page is under construction ! </p>
+<h1 align="center" id="h1"> Hello World, Arfan here :)</h1>
+<p align="center" id="h1"> This page is under construction ! </p>
 <p align="center"><img src="https://clipartstation.com/wp-content/uploads/2017/11/baustelle-clipart-1.png" height="250px" width="300px"></p>
 
-<p align="center"> Meanwhile, to know more click below</p>
-<p align="center"><a href="https://www.instagram.com/shaikharfan98/"><img src="https://cdn.pixabay.com/photo/2016/08/01/21/02/icon-1562139_960_720.png" height="50px" width="50px"></a></p>
+<p align="center" id="h1"> Meanwhile, to know more click below</p>
+<br>
+<p align="center" ><a href="https://www.instagram.com/shaikharfan98/" ><img src="https://cdn.pixabay.com/photo/2018/03/19/02/52/logo-instagram-3238899_960_720.png"  id="floating-button" ></a></p>
 
 </body>
 </html>

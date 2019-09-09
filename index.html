@@ -8,21 +8,21 @@
 
 	background: linear-gradient(349deg, #0027ff, #0e1956);
 	background-size: 400% 400%;
-	-webkit-animation: AnimationName 30s ease infinite;
-	-moz-animation: AnimationName 30s ease infinite;
-	animation: AnimationName 30s ease infinite;
+	-webkit-animation: Animationclass 30s ease infinite;
+	-moz-animation: Animationclass 30s ease infinite;
+	animation: Animationclass 30s ease infinite;
 
-	@-webkit-keyframes AnimationName {
+	@-webkit-keyframes Animationclass {
 	    0%{background-position:0% 84%}
 	    50%{background-position:100% 17%}
 	    100%{background-position:0% 84%}
 	}
-	@-moz-keyframes AnimationName {
+	@-moz-keyframes Animationclass {
 	    0%{background-position:0% 84%}
 	    50%{background-position:100% 17%}
 	    100%{background-position:0% 84%}
 	}
-	@keyframes AnimationName{
+	@keyframes Animationclass{
 	    0%{background-position:0% 84%}
 	    50%{background-position:100% 17%}
 	    100%{background-position:0% 84%}
@@ -41,18 +41,28 @@
 	}
 
 	#floating-button {
-    width: 65px;
-    height: 65px;
-    border-radius: 60%;
+    width: 55px;
+    height: 55px;
+    border-radius: 10%;
     cursor: pointer;
     box-shadow: 0px 2px 5px #666;
     z-index: 1;
+    background-color: white;
 	}	
+
+	.logo1,.logo2:hover{
+		color: black;
+	}
+
 
 	.img1{
 		width: 10px;
 		height: 10px;
+		border-radius: 60%;
 	}
+
+
+
 	</style>	
 
 </head>
@@ -64,9 +74,18 @@
 <p align="center" id="h1"> This page is under construction ! </p>
 <p align="center"><img src="https://clipartstation.com/wp-content/uploads/2017/11/baustelle-clipart-1.png" height="250px" width="300px"></p>
 
+
 <p align="center" id="h1"> Meanwhile, to know more click below</p>
 <br>
-<p align="center" ><a href="https://www.instagram.com/shaikharfan98/" ><img id="floating-button" src="https://image.flaticon.com/icons/png/128/1077/1077093.png" ></a></p>
+<p align="center" ><a href="https://www.instagram.com/shaikharfan98/" ><img id="floating-button" class="logo1" src="icons/1.png" ></a>
+<a href="https://www.twitter.com/shaikharfan7/" ><img id="floating-button" class="logo2" src="icons/2.png" ></a>
+<a href="https://www.github.com/shaikharfan7/" ><img id="floating-button" class="logo3" src="icons/3.png" ></a>
+<a href="https://www.linkedin.com/in/shaikharfan7/" ><img id="floating-button" class="logo4"   src="icons/4.png" ></a>
+
+
+
+
+</p>
 
 </body>
 </html>

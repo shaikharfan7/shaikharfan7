@@ -1,91 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>About me</title>
-
-	<style type="text/css">
-	body{	
-
-	background: linear-gradient(349deg, #0027ff, #0e1956);
-	background-size: 400% 400%;
-	-webkit-animation: Animationclass 30s ease infinite;
-	-moz-animation: Animationclass 30s ease infinite;
-	animation: Animationclass 30s ease infinite;
-
-	@-webkit-keyframes Animationclass {
-	    0%{background-position:0% 84%}
-	    50%{background-position:100% 17%}
-	    100%{background-position:0% 84%}
-	}
-	@-moz-keyframes Animationclass {
-	    0%{background-position:0% 84%}
-	    50%{background-position:100% 17%}
-	    100%{background-position:0% 84%}
-	}
-	@keyframes Animationclass{
-	    0%{background-position:0% 84%}
-	    50%{background-position:100% 17%}
-	    100%{background-position:0% 84%}
-	}	
-	}
-
-	#h1{
-    font-family: 'Open Sans', Arial, Helvetica Neue, sans-serif;
-    width: 100%;
-    
-    text-transform: uppercase;
-    line-height: 0.8;
-    letter-spacing: 3px;
-    font-weight: 300;
-    color: white;
-	}
-
-	#floating-button {
-    width: 55px;
-    height: 55px;
-    border-radius: 10%;
-    cursor: pointer;
-    box-shadow: 0px 2px 5px #666;
-    z-index: 1;
-    background-color: white;
-	}	
-
-	.logo1,.logo2:hover{
-		color: black;
-	}
-
-
-	.img1{
-		width: 10px;
-		height: 10px;
-		border-radius: 60%;
-	}
-
-
-
-	</style>	
-
+	<meta charset="utf-8">
+  <title>About me</title>
+  <meta name="description" content="All about Arfan Shaikh">
+  <meta name="author" content="Arfan Shaikh" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body >
 
-<body>
-<br><br><br><br><br>	
-<h1 align="center" id="h1"> Hello World, Arfan here :)</h1>
-<p align="center" id="h1"> This page is under construction ! </p>
-<p align="center"><img src="https://clipartstation.com/wp-content/uploads/2017/11/baustelle-clipart-1.png" height="250px" width="300px"></p>
+<body onload="ref()">
+
+<div id="particles-js"></div>
+  
+
+<script src="particles.js"></script>
+<script src="app.js"></script>
+
+<div class="panel" style="display: block;">
+  
+
+<img src="img/mug.jpg" id="mug"></img>
+
+<h1 id="htext">Hello World, I'm Arfan </h1>
+<p id="paratext">I'm a computer engineering student </p>
 
 
-<p align="center" id="h1"> Meanwhile, to know more click below</p>
-<br>
-<p align="center" ><a href="https://www.instagram.com/shaikharfan98/" ><img id="floating-button" class="logo1" src="icons/1.png" ></a>
-<a href="https://www.twitter.com/shaikharfan7/" ><img id="floating-button" class="logo2" src="icons/2.png" ></a>
-<a href="https://www.github.com/shaikharfan7/" ><img id="floating-button" class="logo3" src="icons/3.png" ></a>
-<a href="https://www.linkedin.com/in/shaikharfan7/" ><img id="floating-button" class="logo4"   src="icons/4.png" ></a>
+<div id="infocontainer">
+    
+<h2 id="h2text"><script type="text/javascript" src="listcontrol.js"></script></h2>
+  <ul id="list">
+  <li id="ele1"></li>
+  <li id="ele2"></li>
+  <li id="ele3"></li>
+  <li id="ele4"></li>
+  <li id="ele5"></li>
+
+</ul>
+</div>
+    
+
+<p align="center" id="nav">
+<a onclick="onClickLeft()"><img src="icons/arrow_left.png" id="floating-button1" name="btnn"></a>
+<a onclick="onClickRight()"><img src="icons/arrow_right.png" id="floating-button1" name="btnn"></a>
+</p>    
 
 
+  <p align="center" id="social">
+    <a href="https://www.linkedin.com/in/shaikharfan7/" target="_blank"><img src="icons/linkedin.png" id="floating-button" name="btnn"></a> 
+    <a href="https://www.github.com/shaikharfan7/" target="_blank"><img src="icons/github.png" id="floating-button"></a>
+    <a href="https://www.twitter.com/shaikharfan7/" target="_blank"><img src="icons/twitter.png" id="floating-button"></a>
+    <a href="https://www.instagram.com/shaikharfan98" target="_blank"><img src="icons/instagram.png" id="floating-button"></a>
+      
+  </p>
+</div>
 
-
-</p>
 
 </body>
 </html>

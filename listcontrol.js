@@ -1,6 +1,6 @@
-var title_array = ["Area Of Interests","Title2","Title3"];
-var list1 = ["ELEMENT1","ELEMENT2","ELEMENT3","ELEMENT4","ELEMENT5"];	
-var list2 = ["ELEMENT2","ELEMENT3","ELEMENT4","ELEMENT5","ELEMENT6"];
+var title_array = ["Interests","Programming Interests","Projects"];
+var list1 = ["Programming &#x1F4BB","Computer Networking","Computer Hardware","Internet of Things (IoT)","Sci-Fi &#x1F47E"];	
+var list2 = ["Mobile App Development &#x1F4F2","Network Programming","Cloud Computing ","Automation Software","Random projects from GitHub &#x1F609;"];
 var list3 = [];
 var i=0;
 
@@ -51,13 +51,13 @@ if(i>3)
 
 function onClickLeft(){
 	i--;
-	console.log("PRESSED LEFT");
+	console.log("Hey there!, YOU PRESSED LEFT");
 	ref();	
 }
 
 
 function onClickRight(){
 	i++;
-	console.log("PRESSED Right");
+	console.log("Hey there!, YOU PRESSED RIGHT");
 	ref();
 }

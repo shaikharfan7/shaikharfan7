@@ -1,7 +1,7 @@
 var title_array = ["Interests","Programming Interests","Learning about"];
 var list1 = ["Programming &#x1F4BB","Computer Networking","Computer Hardware","Internet of Things (IoT)","Sci-Fi &#x1F47E"];	
 var list2 = ["Mobile App Development &#x1F4F2","Network Programming","Cloud Computing ","Automation Software","Random projects from GitHub &#x1F609;"];
-var list3 = ["Game Development &#x1F3AE","Blockchain","Artiicial Intelligence","Security Exploits","Advanced Algorithms &#x1F4C8"];
+var list3 = ["Game Development &#x1F3AE","Blockchain","Artificial Intelligence","Security Exploits","Advanced Algorithms &#x1F4C8"];
 var i=0;
 
 

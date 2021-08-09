@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>About Arfan</title>
-    <meta name="description" content="Arfan Shaikh - This webpage contains my interests particularly in the field of programming">
+    <meta name="description" content="Arfan Shaikh - Landing page with resume and contact link">
     <meta name="author" content="Arfan Shaikh" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" href="icons/icon-computer.svg" type="image/icon type">
@@ -12,12 +12,14 @@
 <body>
 
     <script>
-        function loadOldWebsite(){
-            window.open('./indexold.html')
+        function contact(){
+            contactformURL = "https://forms.gle/guKsJGsJPLppsLe97" 
+            window.open(contactformURL)
         }
     
         function openResume(){
-            window.open('https://drive.google.com/file/d/1pg8sDAz8nDMwfFeP85tOJyYCAP_4_C_i/view?usp=sharing')
+            resumeURL = "https://shaikharfan7.github.io/resume"
+            window.open(resumeURL)
         }
 
         if(screen.width<=321){
@@ -41,10 +43,11 @@
             
             <br>
 
-            <button id="websiteButton" onclick="loadOldWebsite()">Old Website</button>
+            <button id="websiteButton" onclick="contact()">Contact Me</button>
 
         </div>
 
+        
 
         <div align="center" id="socials">
 

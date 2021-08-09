@@ -13,7 +13,7 @@
 }
 
 #ProfilePic{
-    height:200px;
+    height:210px;
     width:160px;
     border-radius: 10px;
 }
@@ -62,19 +62,19 @@
 }
 
 #resumeButton, #websiteButton{
-    width: 100px;
-    height: 25px;
-    margin: 5px;
-    color: black;
-    background-color: white;
-    border-radius: 5px;
-
+    width: 100px!important;
+    height: 25px!important;
+    margin: 5px!important;
+    color: black!important;
+    background-color: white!important;
+    border-radius: 5px!important;
+    border-radius: 5px!important;
 }
 
 #resumeButton:hover, #websiteButton:hover{
-    margin: 5px;
-    color: white;
-    background-color: black;
-    border-radius: 5px;
-    transform: scale(1);
+    margin: 5px!important;
+    color: white!important;
+    background-color: black!important;
+    border-radius: 5px!important;
+    transform: scale(1)!important;
 }

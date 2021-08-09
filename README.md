@@ -6,10 +6,6 @@
 
 # About me
 
-My first repository on Github.
+This repository will contain a <a href="https://shaikharfan7.github.io">landing page</a> , <a href="https://shaikharfan7.github.io/resume">resume</a> and <a href="https://forms.gle/guKsJGsJPLppsLe97">contact form</a>.
 
-This repository will contain a <a href="https://www.shaikharfan.me">webpage</a> that will help you learn about me and my areas of interest.
-
-Used <a href="https://github.com/VincentGarreau/particles.js/">Particles.js</a> for an interactive background, and HTML,CSS JavaScript for making this page.
-
-
+Used HTML,CSS JavaScript for making this page.
